@@ -20,7 +20,7 @@ if type(amount) == float and type(user_currency) and type(user_desired_currency)
             print("1", user_currency, "=", currency, rate)
             print(amount, user_currency, "=", currency, conversion)
 elif type(amount) != float:
-    raise ValueError("Invalid Amount")
+    raise ValueError("Invalid Amount") # No numeric value
 else:
     raise ValueError("Invalid Value, please check out our Available Currencies at https://pastebin.com/wV17F5wX") # Custom Errors
     raise KeyError("Invalid Value, please check out our Available Currencies at https://pastebin.com/wV17F5wX") # Custom Errors
